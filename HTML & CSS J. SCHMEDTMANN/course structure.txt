@@ -1,0 +1,51 @@
+Jonas Schmedtmann's HTML and CSS Course:
+
+HTML
+1. He starts by explaining the importance of:
+	->	html
+	->	elements
+	-> tags
+	
+2. Then goes on the introduce the basic structure of an html file:
+	->	introduces the html tags, then the two main head and body tags within them.
+	->	then explains the DOCTYPE tag and its importance of letting the browser know that the file is an html5 files
+	
+3. Title, h1-h6, view in browser. p, strong, em, u.  Line breaks and spaces in files not effecting browser. br. 
+
+Img, explaining some elements have no closing tags, just opening tags.
+element attributes, src, alt attributes. 
+
+4. Links, a, href, to websites, to images in our folder,
+
+Thats it for HTML, on to CSS
+
+CSS
+
+1. what is css, what does it do, how to use css. 3 ways, inside a tag, inside the head, external file
+
+
+
+Web Design:
+
+1. Flat design, 2d vs 3d.. less is more, basic, clean structure. 
+
+
+
+********
+
+Look up fluid grid, its really important for responsiveness. How can we make this ourselves? Great to understand this
+
+How to Center a div and its contents:  (e.g. a centered header)
+	To center a div within its container... for example, centering a row inside of the body element.. make the margin: 0 auto;
+	So this makes the div itself centered, but the content might still be a block, and there for not centered.
+	So in order to center the content you have to do displa:flex, then justify-content: center; (horizontal alignment) then align-items: center;(horizontal alighment)
+	
+
+This allows you to use a background image, center it as well. 	
+	
+header {
+   background-image: url(img/hero.jpg);		-> uses the background image properly, instead of href
+   background-size: cover;					-> uses the whole image.. if some is cut off, this fixes it
+   background-position: center;				-> centers
+   height: 100vh;							->100%viewport height
+}
